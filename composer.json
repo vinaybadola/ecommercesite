@@ -1,0 +1,22 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://example.org"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Ogbonna Vitalis",
+            "email": "vitalis@w3resource.com",
+            "homepage": "http://www.w3resource.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Jordi Bogdanov",
+            "email": "jordi@w3resource.com ",
+            "homepage": "https:// w3resource.com ",
+            "role": "Developer"
+        }
+    ]
+}

@@ -311,8 +311,8 @@ class Cart
 
 	public function makePayment(){
 		require('src/instamojo.php');
-		$apiKey ="test_44df4d06a483840e8f2a9bcb4bf";
-		$authToken = "test_1537a0337085aba865472dcc079";
+		$apiKey ="test_44df4d06a483840e8f2a9****"; // Add your instaMojo API Key	
+		$authToken = "test_1537a0337085aba865472d****"; //Add your authToken 
 			
 		$api = new Instamojo\Instamojo($apiKey, $authToken,'https://test.instamojo.com/api/1.1/');
 

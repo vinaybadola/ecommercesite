@@ -1,2 +1,0 @@
-# aapkauphar
-ecommerce website

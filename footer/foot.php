@@ -23,7 +23,7 @@
 
                     <h3> Email ID </h3>
                     <br>
-                    <i class="fas fa-envelope-square"> <a style="color:white;" href="mailto : aapkauphar@gmail.com" > aapkauphar@gmail.com</a>   </i>
+                    <i class="fas fa-envelope-square"> <a style="color:white;" href="mailto : vinaybadola46@gmail.com" > aapkauphar@gmail.com</a>   </i>
 
 
                 </div>

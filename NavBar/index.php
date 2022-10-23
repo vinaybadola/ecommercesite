@@ -14,7 +14,7 @@
    <body>
       <nav>
          <div class="logo">
-            <img src=" https://i.postimg.cc/QM5N6gPR/976758fb82644d04a712fa8ea2edddd5.png" width=" 80" height="60">
+           <a href="../MainDir/index.php">  <img src=" https://i.postimg.cc/QM5N6gPR/976758fb82644d04a712fa8ea2edddd5.png" width=" 80" height="60"> </a> 
           
          </div>
          <input type="checkbox" id="click">
@@ -23,8 +23,8 @@
          </label>
          <ul>
             <li><a class="active" href="../MainDir/index.php">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="../Product2/products.php">Products</a></li>
+            <li><a href="../About/Team.php">About</a></li>
             <li><a href="../ContactUs/index2.php">Contact</a></li>
             <li><a href="../loginSystem/login_form.php">Login/SignUp</a></li>
             

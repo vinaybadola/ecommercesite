@@ -35,8 +35,8 @@ if(!isset($_SESSION['user_name'])){
          </label>
          <ul>
             <li><a class="active" href="../MainDir/index.php">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="../Product2/products.php">Products</a></li>
+            <li><a href="../About/Team.php">About</a></li>
             <li><a href="../ContactUs/index2.php">Contact</a></li>
             <div class= "dropdown">
             <li><button onclick = "myFunction()"  class = "dropbtn">

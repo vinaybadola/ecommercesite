@@ -2,16 +2,6 @@
 
 $conn=mysqli_connect("localhost","root","","NEMW") or die("connection faild");
 
-
- $name = ($_POST['name']);
- $email = ($_POST['email']);
- $message = ($_POST['message']);
-
-$sql="INSERT INTO NewFeature(name, email ,  message) VALUES ('{$name}','{$email}','{$message}')";
-
-$result = mysqli_query($conn, $sql) or die("query faild");
-
-
 ?>
 
 <!DOCTYPE html>
@@ -31,26 +21,29 @@ $result = mysqli_query($conn, $sql) or die("query faild");
 
    <div class="box-container">
 
-      <?php
-     
-        $query = "select * from `NewFeature`";
-        $result = $conn->$query($query);
-
-        if($result -> num_rows>0){
-           while($srow = $result->fetch_assoc()){
-        
-           
-             echo $fetch_product['name']; 
-             echo $fetch_product['email']; 
-             echo $fetch_product['message']; 
-            
-           }
-        }
+   <?php
       
+      $select_products = mysqli_query($conn, "SELECT * FROM `NewFeature`");
+      if(mysqli_num_rows($select_products) > 0){
+         while($fetch_product = mysqli_fetch_assoc($select_products)){
+      ?>
 
-        
+      <div class="box">  
+           <?php echo $fetch_product['name']; ?> <br>
+           <?php echo $fetch_product['email']; ?>   <br>
+           <?php echo $fetch_product['message']; ?> <br>
+           
+         </div>
+         
+     <?php
+         }
+      }
+      else {
+        echo"No Records Found";
+      }
     
       ?>
+        
 
 </div>
 

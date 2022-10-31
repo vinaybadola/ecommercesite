@@ -27,7 +27,7 @@ if(isset($_POST['order_btn'])){
 
    $total_product = implode(', ',$product_name);
    $detail_query = mysqli_query($conn, "INSERT INTO `order`(name, number, email, method, flat, street, city, state, country, pin_code, total_products, total_price) VALUES('$name','$number','$email','$method','$flat','$street','$city','$state','$country','$pin_code','$total_product','$price_total')") or die('query failed');
-
+   
    if($cart_query && $detail_query){
       echo "
       <div class='order-message-container'>
@@ -92,8 +92,8 @@ if(isset($_POST['order_btn'])){
          </label>
          <ul>
             <li><a class="active" href="../MainDir/index.php">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="../Product2/products.php">Products</a></li>
+            <li><a href="../About/about.php">About</a></li>
             <li><a href="../ContactUs/index2.php">Contact</a></li>
              
             <li> <a href="cart.php" class="cart">cart <span><?php echo $row_count; ?></span> </a></li>
@@ -149,8 +149,7 @@ if(isset($_POST['order_btn'])){
             <span>payment method</span>
             <select name="method">
                <option value="cash on delivery" selected>cash on devlivery</option>
-               <option value="credit cart">credit cart</option>
-               <option value="paypal">paypal</option>
+              
             </select>
          </div>
          <div class="inputBox">

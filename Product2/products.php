@@ -63,8 +63,8 @@ if(isset($message)){
          </label>
          <ul>
             <li><a class="active" href="../MainDir/index.php">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="../Product2/products.php">Products</a></li>
+            <li><a href="../About/about.php">About</a></li>
             <li><a href="../ContactUs/index2.php">Contact</a></li>
              
             <li> <a href="cart.php" class="cart">cart <span><?php echo $row_count; ?></span> </a></li>

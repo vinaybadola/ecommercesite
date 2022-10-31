@@ -24,7 +24,7 @@
          <ul>
             <li><a class="active" href="../MainDir/index.php">Home</a></li>
             <li><a href="../Product2/products.php">Products</a></li>
-            <li><a href="../About/Team.php">About</a></li>
+            <li><a href="../About/about.php">About</a></li>
             <li><a href="../ContactUs/index2.php">Contact</a></li>
             <li><a href="../loginSystem/login_form.php">Login/SignUp</a></li>
             

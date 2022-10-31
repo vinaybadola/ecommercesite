@@ -36,7 +36,7 @@ $result = mysqli_query($conn, $sql) or die("query faild");
         setTimeout(function(){
             window.location.href = '../MainDir/user_index.php';
          }, 10000);
-         alert("Wait! while redirecting You to main page");
+         alert("Wait! while  we redirecting You to main page");
     </script>
 </body>
 </html>

@@ -86,7 +86,7 @@ if(isset($message)){
 
    <div class="flex">
 
-      <a href="#" class="logo">foodies</a>
+      <a href="#" class="logo">ADMIN PANNEL</a>
 
       <nav class="navbar">
          <a href="admin.php">add products</a>

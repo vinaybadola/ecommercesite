@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
    <!-- <title> Responsive Contact Us Form  | CodingLab </title>-->
     <link rel="stylesheet" href="style.css">
- 
+   
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Fontawesome CDN Link -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
-     
+
+
+
    
-  
-  
-  
-  
-  </head>
+   </head>
 <body>
   <div class="container">
     <div class="content">
@@ -63,6 +63,11 @@
     </div>
   </div>
   </form>
-  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+  
+
+  <?php
+@include 'footer.php' ;?>
+   
+  <!--------------<script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>------>
 </body>
 </html>
